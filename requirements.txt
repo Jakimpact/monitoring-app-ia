@@ -1,0 +1,6 @@
+evidently
+fastapi
+pandas
+prometheus-fastapi-instrumentator
+scikit-learn
+uvicorn
