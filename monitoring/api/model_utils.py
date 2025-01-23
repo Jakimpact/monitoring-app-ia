@@ -1,8 +1,9 @@
-from joblib import load
+import pickle
 
 
-def load_model(path="./model.pkl"):
-    model = load(path)
+def load_model():
+    with open('model.pkl', 'rb') as file:
+        model = pickle.load(file)
     return model
 
 def prediction(model, data):
