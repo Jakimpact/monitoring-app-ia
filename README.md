@@ -32,6 +32,8 @@ Les notebooks model.ipynb et monitoring_ml.ipynb contiennent le code pour entra�
 ### Grafana
 Grafana est configuré pour afficher les tableaux de bord de monitoring. Les fichiers de configuration se trouvent dans le dossier grafana.
 
+![Dashboard](./dashboard.png)
+
 ### Prometheus
 Prometheus est configuré pour collecter les métriques. Le fichier de configuration se trouve dans prometheus.yml.
 
