@@ -1,0 +1,6 @@
+fastapi
+fastapi[standard]
+pandas
+prometheus-fastapi-instrumentator
+scikit-learn
+uvicorn

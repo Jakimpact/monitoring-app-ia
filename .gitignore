@@ -192,4 +192,5 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,python
 
+model.pkl
 exports/

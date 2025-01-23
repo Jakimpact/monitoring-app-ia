@@ -1,6 +1,4 @@
-evidently
-fastapi
-pandas
-prometheus-fastapi-instrumentator
-scikit-learn
-uvicorn
+-r monitoring/api/requirements.txt
+-r monitoring/ml/requirements.txt
+
+
