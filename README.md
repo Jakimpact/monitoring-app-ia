@@ -26,8 +26,8 @@ L'API est définie dans le fichier main.py. Elle permet de faire des prédiction
 ### Monitoring
 Les notebooks model.ipynb et monitoring_ml.ipynb contiennent le code pour entraîner le modèle et surveiller les dérives de données.
 
-1. Exécutez le notebook [model.ipynb](http://_vscodecontentref_/7) pour entraîner le modèle et exporter les datasets de référence et de dérive.
-2. Exécutez le notebook [monitoring_ml.ipynb](http://_vscodecontentref_/8) pour générer les rapports de dérive de données avec Evidently.
+1. Exécutez le notebook [model.ipynb] pour entraîner le modèle et exporter les datasets de référence et de dérive.
+2. Exécutez le notebook [monitoring_ml.ipynb] pour générer les rapports de dérive de données et les tests de stabilité avec Evidently (un rapport est également visible dans le notebook).
 
 ### Grafana
 Grafana est configuré pour afficher les tableaux de bord de monitoring. Les fichiers de configuration se trouvent dans le dossier grafana.
@@ -38,6 +38,4 @@ Grafana est configuré pour afficher les tableaux de bord de monitoring. Les fic
 Prometheus est configuré pour collecter les métriques. Le fichier de configuration se trouve dans prometheus.yml.
 
 ## Dépendances
-Les dépendances Python sont listées dans les fichiers [requirements.txt](http://_vscodecontentref_/9) :
-- [requirements.txt](http://_vscodecontentref_/10)
-- [requirements.txt](http://_vscodecontentref_/11)
+Les dépendances Python sont listées dans les fichiers [requirements.txt].
